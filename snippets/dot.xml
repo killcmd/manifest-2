@@ -129,7 +129,6 @@
   <!-- Device -->
   <project path="device/qcom/common" name="android_device_qcom_common" remote="los" revision="lineage-15.1" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="dot" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="dot" />
   <project path="device/dot/sepolicy" name="android_device_dot_sepolicy" remote="dot" />
 
   <!-- Packages -->
@@ -169,6 +168,13 @@
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="los" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="los" />
+	
+	 <!-- Essential PH-1 -->
+  <!--<remove-project name="device/qcom/sepolicy" />-->
+  <project name="killcmd/android_device_essential_mata-2" path="device/essential/mata" remote="github" revision="aex" />
+  <project name="celtare21/kernel_essential_msm8998-1" path="kernel/essential/msm8998" remote="github" revision="Artemis" />
+  <project name="celtare21/vendor_essential-1" path="vendor/essential" remote="github" revision="aicp" />
+  <project name="AICP/device_qcom_sepolicy"    path="device/qcom/sepolicy"     remote="github" revision="refs/heads/p9.0"  />
 
   <!-- HALs -->
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="los" />
