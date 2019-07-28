@@ -171,7 +171,7 @@
 	
 	 <!-- Essential PH-1 -->
   <!--<remove-project name="device/qcom/sepolicy" />-->
-  <project name="killcmd/android_device_essential_mata-2" path="device/essential/mata" remote="github" revision="aex" />
+  <project name="killcmd/android_device_essential_mata-2" path="device/essential/mata" remote="github" revision="dot" />
   <project name="celtare21/kernel_essential_msm8998-1" path="kernel/essential/msm8998" remote="github" revision="Artemis" />
   <project name="celtare21/vendor_essential-1" path="vendor/essential" remote="github" revision="aicp" />
   <project name="AICP/device_qcom_sepolicy"    path="device/qcom/sepolicy"     remote="github" revision="refs/heads/p9.0"  />
